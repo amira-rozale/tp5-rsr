@@ -52,6 +52,8 @@ section {
 /* Pour les écrans plus petits (téléphones et tablettes) */
 @media (max-width: 768px) {
     .letter {
+          
+
         font-size: 2.2em; /* Taille de la lettre réduite pour les appareils mobiles */
         padding-left: 8px; /* Réduction du padding pour les petits écrans */
     }
@@ -64,6 +66,8 @@ section {
 /* Pour les très petits écrans (téléphones en mode portrait) */
 @media (max-width: 480px) {
     .letter {
+           
+            
         font-size: 1.8em; /* Taille encore plus petite pour les très petits écrans */
         padding-left: 6px; /* Ajustement du padding pour les très petits écrans */
     }
