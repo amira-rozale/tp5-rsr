@@ -55,7 +55,7 @@ section {
 }
 
 .logo {
-    flex: 1 1 calc(25% - 20px); /* Two logos per row, with a 20px gap between them */
+    flex: 1 1 calc(50% - 20px); /* Two logos per row, with a 20px gap between them */
     max-width: 150px; /* Ensure the logos take up 50% of the container width */
     height: 120px; /* All logos will have a consistent height */
     display: flex;
