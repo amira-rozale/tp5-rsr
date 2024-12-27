@@ -14,15 +14,7 @@ header {
 }
 
 /* Logo Styling */
-.logo-container {
-    display: flex;
-    align-items: center;
-}
 
-.logo {
-    height: 50px; /* Adjust logo size */
-    max-width: 100%;
-}
 
 /* Navbar Menu Styling */
 nav ul {
