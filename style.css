@@ -64,7 +64,7 @@ section {
 }
 
 .logo img {
-    width: 100%; /* Logos fill the container width */
+    width: 80%; /* Logos fill the container width */
     height: auto; /* Maintain aspect ratio */
     object-fit: contain; /* Ensure logos fit within their container without distortion */
    
