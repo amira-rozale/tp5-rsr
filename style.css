@@ -30,6 +30,23 @@ section {
     letter-spacing: 10px;
     margin-bottom: 20px;
 }
+.letter {
+    background-color: #D4A017; /* jaune Background color for the first letter */
+    padding: 5px;
+    padding-left: 12px;
+    padding-right: 0;
+    color: #006E4E; /* vert color for the first letter */
+    font-weight: bold;
+    font-size: 1.9em;
+}
+
+
+/* Margin for the rest of the text */
+.ml-1 {
+    margin-left: 0.25rem;
+    color:#006E4E
+}
+
 
 .logos {
     display: flex;
