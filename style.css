@@ -272,3 +272,53 @@ nav ul li a:hover {
         background-color: rgba(212, 160, 23, 1); /* Solid color for better visibility on mobile */
     }
 }
+/* Section contenant les logos */
+#organizers {
+    padding: 80px 20px 40px;
+    margin: 20px 120px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Conteneur pour les logos */
+.logos {
+    display: flex;
+    flex-wrap: wrap; /* Permet aux logos de passer à la ligne si nécessaire */
+    justify-content: space-between; /* Espacement égal entre les logos */
+    gap: 20px; /* Espace entre les logos */
+    align-items: center;
+}
+
+/* Chaque logo */
+.logo {
+    flex: 1 1 calc(25% - 20px); /* Chaque logo prend 25% de la largeur, moins l'espace entre */
+    max-width: 200px; /* Limite la taille maximale des logos */
+    margin-bottom: 20px; /* Espacement en bas des logos */
+    display: flex;
+    justify-content: center; /* Centre le logo dans sa boîte */
+    align-items: center;
+}
+
+/* Ajustement de la taille des images à l'intérieur des logos */
+.logo img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Évite un petit espace sous l'image */
+}
+
+/* Responsive Design pour les petits écrans */
+@media (max-width: 768px) {
+    /* Sur les tablettes, on affiche 2 logos par ligne */
+    .logo {
+        flex: 1 1 calc(50% - 20px); /* Deux logos sur la même ligne */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Sur les téléphones, on affiche 1 logo par ligne */
+    .logo {
+        flex: 1 1 100%; /* Un logo par ligne */
+    }
+}
+
