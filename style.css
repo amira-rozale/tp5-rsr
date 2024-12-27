@@ -56,8 +56,8 @@ section {
 
 .logo {
     flex: 1 1 calc(50% - 20px); /* Two logos per row, with a 20px gap between them */
-    max-width: 150px; /* Ensure the logos take up 50% of the container width */
-    height: 120px; /* All logos will have a consistent height */
+    max-width: 200px; /* Ensure the logos take up 50% of the container width */
+    height: 150px; /* All logos will have a consistent height */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,7 +67,7 @@ section {
     width: 100%; /* Logos fill the container width */
     height: auto; /* Maintain aspect ratio */
     object-fit: contain; /* Ensure logos fit within their container without distortion */
-    display: block;
+   
 }
 
 /* Responsive styles */
