@@ -14,6 +14,92 @@ header {
 }
 
 /* Logo Styling */
+section {
+    padding: 80px 20px 40px; /* Padding with space from header */
+    margin: 20px 120px; /* Margins for spacing */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icgh__title {
+    font-size: 2.5rem; /* Adjusted font size for desktop */
+    color: #006E4E;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around; /* Evenly spaced logos */
+    flex-wrap: wrap; /* Allow logos to wrap onto next row on smaller screens */
+    gap: 20px; /* Space between logos */
+    margin-top: 20px;
+}
+
+.logo {
+    flex: 1 1 150px; /* Make logos flexible, but with a minimum width */
+    max-width: 200px; /* Limit maximum size of logos */
+    height: 100px; /* Maintain height of logos */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+    height: auto; /* Ensure aspect ratio is maintained */
+}
+
+/* Responsive Styles */
+
+/* Mobile (portrait) and Tablet */
+@media (max-width: 768px) {
+    .icgh__title {
+        font-size: 1.8rem; /* Smaller title size for tablets and phones */
+        letter-spacing: 5px; /* Reduce letter spacing for small screens */
+    }
+
+    section {
+        margin: 20px 10px; /* Reduce section margins on small screens */
+        padding: 40px 10px; /* Adjust padding for smaller screens */
+    }
+
+    .logos {
+        justify-content: center; /* Center logos on smaller screens */
+    }
+
+    .logo {
+        flex: 1 1 120px; /* Allow logos to shrink further */
+        max-width: 150px; /* Maximum size for logos */
+    }
+}
+
+/* Extra small screens (phones in portrait mode) */
+@media (max-width: 480px) {
+    .icgh__title {
+        font-size: 1.6rem; /* Even smaller title size */
+        letter-spacing: 3px; /* Reduce letter-spacing further */
+    }
+
+    section {
+        margin: 10px 5px; /* Reduce margins on very small screens */
+        padding: 30px 10px; /* Adjust padding even more */
+    }
+
+    .logos {
+        flex-direction: column; /* Stack logos vertically on very small screens */
+        align-items: center; /* Center logos */
+    }
+
+    .logo {
+        flex: 1 1 100px; /* Even smaller logos */
+        max-width: 120px; /* Maximum width of logos */
+        margin-bottom: 10px; /* Space between stacked logos */
+    }
+}
 
 
 /* Navbar Menu Styling */
