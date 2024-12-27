@@ -69,6 +69,25 @@ section {
     object-fit: contain; /* Ensure logos fit within their container without distortion */
    
 }
+/* Media Queries */
+@media (max-width: 1011px) {
+ .logos {
+    flex-wrap: wrap;
+    width: 100%; /* Adaptation à l'écran */
+  }
+ .logos .logo {
+    flex-basis: calc(50% - 1rem);
+    height: 240px;
+
+  }
+}
+
+@media (max-width: 480px) {
+.logos .logo {
+    flex-basis: 100%;
+    height: 240px;
+  }
+}
 
 /* Responsive styles */
 
