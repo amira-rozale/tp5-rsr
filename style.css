@@ -30,6 +30,7 @@ section {
     letter-spacing: 10px;
     margin-bottom: 20px;
 }
+/* Letter Decoration */
 .letter {
     background-color: #D4A017; /* jaune Background color for the first letter */
     padding: 5px;
@@ -37,14 +38,39 @@ section {
     padding-right: 0;
     color: #006E4E; /* vert color for the first letter */
     font-weight: bold;
-    font-size: 1.9em;
+    font-size: 2.5em; /* Taille plus grande sur PC */
 }
-
 
 /* Margin for the rest of the text */
 .ml-1 {
     margin-left: 0.25rem;
-    color:#006E4E
+    color: #006E4E;
+}
+
+/* Responsive styles */
+
+/* Pour les écrans plus petits (téléphones et tablettes) */
+@media (max-width: 768px) {
+    .letter {
+        font-size: 2.2em; /* Taille de la lettre réduite pour les appareils mobiles */
+        padding-left: 8px; /* Réduction du padding pour les petits écrans */
+    }
+
+    .ml-1 {
+        margin-left: 0.15rem; /* Réduction de la marge pour les petits écrans */
+    }
+}
+
+/* Pour les très petits écrans (téléphones en mode portrait) */
+@media (max-width: 480px) {
+    .letter {
+        font-size: 1.8em; /* Taille encore plus petite pour les très petits écrans */
+        padding-left: 6px; /* Ajustement du padding pour les très petits écrans */
+    }
+
+    .ml-1 {
+        margin-left: 0.1rem; /* Ajustement de la marge pour les très petits écrans */
+    }
 }
 
 
