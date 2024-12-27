@@ -46,6 +46,29 @@ section {
     margin-left: 0.25rem;
     color: #006E4E;
 }
+.logos {
+    display: flex;
+    justify-content: space-between; /* Two logos per row on desktop */
+    flex-wrap: wrap; /* Allow logos to wrap onto next row on smaller screens */
+    gap: 20px; /* Space between logos */
+    margin-top: 20px;
+}
+
+.logo {
+    flex: 1 1 calc(25% - 20px); /* Two logos per row, with a 20px gap between them */
+    max-width: calc(50% - 20px); /* Ensure the logos take up 50% of the container width */
+    height: 150px; /* All logos will have a consistent height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%; /* Logos fill the container width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure logos fit within their container without distortion */
+    display: block;
+}
 
 /* Responsive styles */
 
@@ -61,6 +84,16 @@ section {
     .ml-1 {
         margin-left: 0.15rem; /* Réduction de la marge pour les petits écrans */
     }
+        .logos {
+        justify-content: center; /* Center logos on smaller screens */
+    }
+
+    .logo {
+        flex: 1 1 100%; /* One logo per row on smaller screens */
+        max-width: 100%; /* Ensure logos take up full width on small screens */
+        height: 120px; /* Reduce height on small screens */
+        margin-bottom: 10px; /* Space between stacked logos */
+    }
 }
 
 /* Pour les très petits écrans (téléphones en mode portrait) */
@@ -74,6 +107,17 @@ section {
 
     .ml-1 {
         margin-left: 0.1rem; /* Ajustement de la marge pour les très petits écrans */
+    }
+            .logos {
+        flex-direction: column; /* Stack logos vertically on very small screens */
+        align-items: center; /* Center logos */
+    }
+
+    .logo {
+        flex: 1 1 100%; /* One logo per row */
+        max-width: 100%; /* Max width to 100% */
+        margin-bottom: 15px; /* Space between stacked logos */
+        height: 100px; /* Even smaller logos */
     }
 }
 
@@ -247,35 +291,9 @@ nav ul li a:hover {
     align-items: center;
 }
 
-/* Chaque logo */
-.logo {
-    flex: 1 1 calc(25% - 20px); /* Chaque logo prend 25% de la largeur, moins l'espace entre */
-    max-width: 200px; /* Limite la taille maximale des logos */
-    margin-bottom: 20px; /* Espacement en bas des logos */
-    display: flex;
-    justify-content: center; /* Centre le logo dans sa boîte */
-    align-items: center;
-}
 
-/* Ajustement de la taille des images à l'intérieur des logos */
-.logo img {
-    max-width: 100%;
-    height: auto;
-    display: block; /* Évite un petit espace sous l'image */
-}
 
-/* Responsive Design pour les petits écrans */
-@media (max-width: 768px) {
-    /* Sur les tablettes, on affiche 2 logos par ligne */
-    .logo {
-        flex: 1 1 calc(50% - 20px); /* Deux logos sur la même ligne */
-    }
-}
 
-@media (max-width: 480px) {
-    /* Sur les téléphones, on affiche 1 logo par ligne */
-    .logo {
-        flex: 1 1 100%; /* Un logo par ligne */
-    }
-}
+
+
 
