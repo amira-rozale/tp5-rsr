@@ -243,8 +243,12 @@
         <p>&copy; 2024 Congrès de Physique et Chimie. Tous droits réservés.</p>
     </footer>
 
-    <script type="module">
 
+    <script type="module">
+function toggleMenu() {
+    const nav = document.querySelector("nav");
+    nav.classList.toggle("responsive");
+}
   // Import the functions you need from the SDKs you need
 
   import { initializeApp } from "https://www.gstatic.com/firebasejs/11.1.0/firebase-app.js";
