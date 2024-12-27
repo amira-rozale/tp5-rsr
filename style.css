@@ -77,30 +77,6 @@ section {
     }
 }
 
-
-.logos {
-    display: flex;
-    justify-content: space-between; /* Two logos per row on desktop */
-    flex-wrap: wrap; /* Allow logos to wrap onto next row on smaller screens */
-    gap: 20px; /* Space between logos */
-    margin-top: 20px;
-}
-
-.logo {
-    flex: 1 1 calc(50% - 20px); /* Two logos per row, with a 20px gap between them */
-    max-width: calc(50% - 20px); /* Ensure the logos take up 50% of the container width */
-    height: 150px; /* All logos will have a consistent height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.logo img {
-    width: 100%; /* Logos fill the container width */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: contain; /* Ensure logos fit within their container without distortion */
-}
-
 /* Responsive Styles */
 
 /* Mobile (portrait) and Tablet */
@@ -115,16 +91,7 @@ section {
         padding: 40px 10px; /* Adjust padding for smaller screens */
     }
 
-    .logos {
-        justify-content: center; /* Center logos on smaller screens */
-    }
 
-    .logo {
-        flex: 1 1 100%; /* One logo per row on smaller screens */
-        max-width: 100%; /* Ensure logos take up full width on small screens */
-        height: 120px; /* Reduce height on small screens */
-        margin-bottom: 10px; /* Space between stacked logos */
-    }
 }
 
 /* Extra small screens (phones in portrait mode) */
@@ -139,17 +106,7 @@ section {
         padding: 30px 10px; /* Adjust padding even more */
     }
 
-    .logos {
-        flex-direction: column; /* Stack logos vertically on very small screens */
-        align-items: center; /* Center logos */
-    }
 
-    .logo {
-        flex: 1 1 100%; /* One logo per row */
-        max-width: 100%; /* Max width to 100% */
-        margin-bottom: 15px; /* Space between stacked logos */
-        height: 100px; /* Even smaller logos */
-    }
 }
 
 
