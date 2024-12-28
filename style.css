@@ -611,20 +611,24 @@ form {
   border-radius: 10px;
 
 }
-    form input[type="text"],
-form input[type="email"],
-form input[type="tel"],
-form input[type="file"] {
-  width: 320px;
-  padding: 15px;
-  margin-bottom: 20px;
-  border: 2px solid #006E4E;
-  border-radius: 15px;
-  box-sizing: border-box;
-  font-size: 14px;
-  background-color: #fff;
 }
+@media (max-width: 480px) {
+  form input[type="text"], form input[type="email"], form input[type="tel"], form input[type="file"] {
+    width: 320px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px solid #006E4E;
+    border-top-color: rgb(0, 110, 78);
+    border-right-color: rgb(0, 110, 78);
+    border-bottom-color: rgb(0, 110, 78);
+    border-left-color: rgb(0, 110, 78);
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background-color: #fff;
+  }
 }
+
 
 /* Champs focus */
 form input:focus {
