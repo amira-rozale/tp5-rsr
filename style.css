@@ -546,7 +546,7 @@ h3 {
         }
 @media (max-width: 480px) {
     .member {
-        flex: 0 0 100%; /* Chaque élément occupe toute la largeur */
+        flex: 0 0 85%; /* Chaque élément occupe toute la largeur */
         margin-bottom: 20px; /* Ajoute un espace entre les membres */
     }
 }
