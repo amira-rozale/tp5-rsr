@@ -15,7 +15,7 @@ header {
 
 /* Logo Styling */
 section {
-    padding: 20px 20px 40px; /* Padding with space from header */
+    padding: 40px 40px 10px; /* Padding with space from header */
     margin: 20px 120px; /* Margins for spacing */
     background-color: white;
     border-radius: 8px;
