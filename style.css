@@ -568,6 +568,78 @@ h3 {
         align-items: center;
     }
 }
+ /* Style global pour le formulaire */
+form {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 120px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+/* Style pour les étiquettes */
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style pour les champs de saisie */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="file"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #006E4E;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+/* Champs focus */
+form input:focus {
+  border-color: #006E4E;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 110, 78, 0.4);
+}
+
+/* Style pour le bouton */
+form button {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  background-color: #006E4E;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Effet hover sur le bouton */
+form button:hover {
+  background-color: #D4A017;
+}
+
+/* Style pour le formulaire global */
+form button:active {
+  background-color:#D4A017 ;
+}
+
+/* Style pour les champs obligatoires */
+form input:invalid {
+  border-color: #003829;
+}
 
 
 
