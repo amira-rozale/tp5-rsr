@@ -49,7 +49,7 @@ section {
 }
 @media (max-width: 1024px) {
     .icgh__title {
-        font-size: 1rem; /* Ajuste la taille du texte pour les tablettes */
+        font-size: 0.7rem; /* Ajuste la taille du texte pour les tablettes */
     }
 
     .letter {
@@ -59,7 +59,7 @@ section {
 /* Media query pour les téléphones */
 @media (max-width: 480px) {
     .icgh__title {
-        font-size: 0.8rem; /* Réduit la taille du titre pour les petits écrans */
+        font-size: 0.6rem; /* Réduit la taille du titre pour les petits écrans */
     }
 
     .letter {
