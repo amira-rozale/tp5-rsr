@@ -474,7 +474,7 @@ h3 {
 .email:hover {
     color: black; /* Orange color for the email icon on hover */
 }
-footer {
+footer  p{
     text-align: center; /* Centre le texte horizontalement */
     padding: 20px; /* Ajoute un espace intérieur pour une meilleure lisibilité */
     background-color: #f4f4f4; /* Couleur de fond douce (optionnelle) */
