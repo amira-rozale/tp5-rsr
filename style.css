@@ -628,7 +628,7 @@ form {
     background-color: #fff;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 1080px) {
 form input[type="text"], form input[type="email"], form input[type="tel"], form input[type="file"] {
   width: 600px;
   padding: 15px;
@@ -642,6 +642,14 @@ form input[type="text"], form input[type="email"], form input[type="tel"], form 
   box-sizing: border-box;
   font-size: 14px;
   background-color: #fff;
+}
+    form {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 120px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+
 }
 }
 /* Champs focus */
