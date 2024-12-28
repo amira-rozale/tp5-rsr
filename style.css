@@ -508,6 +508,62 @@ h3 {
     padding: 8px 10px; /* Réduction supplémentaire des marges internes */
   }
 }
+/*axe scientifique members*/
+.speakers-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 40px; /* Adjust for fixed header */
+            gap: 20px;
+        }
+
+.container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+        }
+
+.member {
+            flex: 0 0 calc(50% - 10px); /* Two members per row */
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #f5f5f5;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border-left: 6px solid #006E4E;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+            /*font-size: 13px;font-weight: 400;line-height: 1.1;letter-spacing: 0.024em;*/
+        }
+
+.member h2 {
+            margin: 0 0 10px;
+            font-size: 1.5em;
+            color: #006E4E;
+        }
+
+.member p {
+            margin: 5px 0;
+            line-height: 1.6;
+        }
+/*fin exe scientifique*/
+/* Responsive Design */
+@media (max-width: 768px) {
+    .speakers-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 
 
 .social-icons {
