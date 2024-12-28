@@ -47,6 +47,26 @@ section {
     margin-left: 0.20rem;
     color: #006E4E;
 }
+@media (max-width: 1024px) {
+    .icgh__title {
+        font-size: 1.75rem; /* Ajuste la taille du texte pour les tablettes */
+    }
+
+    .letter {
+        font-size: 2.5rem; /* Ajuste la taille de la première lettre pour les tablettes */
+    }
+}
+/* Media query pour les téléphones */
+@media (max-width: 480px) {
+    .icgh__title {
+        font-size: 1.5rem; /* Réduit la taille du titre pour les petits écrans */
+    }
+
+    .letter {
+        font-size: 2rem; /* Réduit la taille de la première lettre pour les petits écrans */
+    }
+}
+
 .logos {
     display: flex;
     justify-content: space-between; /* Two logos per row on desktop */
