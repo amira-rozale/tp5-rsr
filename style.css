@@ -441,6 +441,15 @@ h3 {
   -moz-font-feature-settings: 'liga';
   -moz-osx-font-smoothing: grayscale;
 }
+#about p {
+    font-size: 18px; /* Augmente la taille du texte */
+    line-height: 1.8; /* Améliore l'espacement entre les lignes */
+    color: #333; /* Couleur du texte pour une meilleure lisibilité */
+    text-align: justify; /* Aligne le texte pour une présentation soignée */
+    margin-top: 20px; /* Ajoute un espacement au-dessus du paragraphe */
+    margin-bottom: 20px; /* Ajoute un espacement en dessous */
+}
+
 .social-icons {
     display: flex;
     justify-content: center;
