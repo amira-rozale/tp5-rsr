@@ -66,10 +66,10 @@ section {
     }
 
     .letter {
-        font-size: 0.5rem; /* Réduit la taille de la première lettre pour les petits écrans */
+        font-size: 0.6rem; /* Réduit la taille de la première lettre pour les petits écrans */
     }
     .ml-1 {
-        margin-left: 0.1rem; /* Ajustement de la marge pour les très petits écrans */
+        margin-left: 0rem; /* Ajustement de la marge pour les très petits écrans */
     }
 }
 
@@ -133,7 +133,7 @@ section {
     }
 
     .ml-1 {
-        margin-left: 0.8rem; /* Réduction de la marge pour les petits écrans */
+        margin-left: 0.1rem; /* Réduction de la marge pour les petits écrans */
     }
         .logos {
         justify-content: center; /* Center logos on smaller screens */
