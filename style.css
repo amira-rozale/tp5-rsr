@@ -53,7 +53,10 @@ section {
     }
 
     .letter {
-        font-size: 0.8rem; /* Ajuste la taille de la première lettre pour les tablettes */
+        font-size: 0.7rem; /* Ajuste la taille de la première lettre pour les tablettes */
+    }
+    .ml-1 {
+        margin-left: 0.1rem; /* Ajustement de la marge pour les très petits écrans */
     }
 }
 /* Media query pour les téléphones */
@@ -63,7 +66,7 @@ section {
     }
 
     .letter {
-        font-size: 0.6rem; /* Réduit la taille de la première lettre pour les petits écrans */
+        font-size: 0.5rem; /* Réduit la taille de la première lettre pour les petits écrans */
     }
     .ml-1 {
         margin-left: 0.1rem; /* Ajustement de la marge pour les très petits écrans */
@@ -130,7 +133,7 @@ section {
     }
 
     .ml-1 {
-        margin-left: 0.15rem; /* Réduction de la marge pour les petits écrans */
+        margin-left: 0.8rem; /* Réduction de la marge pour les petits écrans */
     }
         .logos {
         justify-content: center; /* Center logos on smaller screens */
@@ -164,10 +167,7 @@ section {
 
 /* Mobile (portrait) and Tablet */
 @media (max-width: 768px) {
-    .icgh__title {
-        font-size: 1.8rem; /* Smaller title size for tablets and phones */
-        letter-spacing: 5px; /* Reduce letter spacing for small screens */
-    }
+
 
     section {
         margin: 20px 10px; /* Reduce section margins on small screens */
@@ -179,10 +179,7 @@ section {
 
 /* Extra small screens (phones in portrait mode) */
 @media (max-width: 480px) {
-    .icgh__title {
-        font-size: 1.6rem; /* Even smaller title size */
-        letter-spacing: 3px; /* Reduce letter-spacing further */
-    }
+
 
     section {
         margin: 10px 5px; /* Reduce margins on very small screens */
