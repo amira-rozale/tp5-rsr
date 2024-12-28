@@ -24,7 +24,7 @@ section {
 }
 
 .icgh__title {
-    font-size: 1.5rem; /* Adjusted font size for desktop */
+    font-size: 1.3rem; /* Adjusted font size for desktop */
     color: #006E4E;
     font-weight: 600;
     text-transform: uppercase;
@@ -49,11 +49,11 @@ section {
 }
 @media (max-width: 1024px) {
     .icgh__title {
-        font-size: 0.7rem; /* Ajuste la taille du texte pour les tablettes */
+        font-size: 0.6rem; /* Ajuste la taille du texte pour les tablettes */
     }
 
     .letter {
-        font-size: 1rem; /* Ajuste la taille de la première lettre pour les tablettes */
+        font-size: 0.8rem; /* Ajuste la taille de la première lettre pour les tablettes */
     }
 }
 /* Media query pour les téléphones */
