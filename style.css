@@ -651,7 +651,7 @@ form {
 @media (max-width: 1080px) {
 
     form {
-  max-width: 800px;
+  max-width: revert-layer;
   margin: 50px auto;
   padding: 120px;
   border: 1px solid #ddd;
