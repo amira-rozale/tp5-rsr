@@ -44,7 +44,7 @@ section {
 
 /* Margin for the rest of the text */
 .ml-1 {
-    margin-left: 0.20rem;
+    margin-left: 0.10rem;
     color: #006E4E;
 }
 @media (max-width: 1024px) {
@@ -117,6 +117,11 @@ section {
 
 /* Pour les écrans plus petits (téléphones et tablettes) */
 @media (max-width: 768px) {
+        .icgh__title {
+        font-size: 0.9rem; /* Smaller title size for tablets and phones */
+        letter-spacing: 5px; /* Reduce letter spacing for small screens */
+    }
+    
     .letter {
           
 
