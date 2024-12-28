@@ -308,7 +308,7 @@ nav ul li a:hover {
     font-size: 16px; /* Taille de texte ajustée pour les petits écrans */
     line-height: 1.8;
 }
-p.topic-number {
+.topics-text .topic-number {
     color: #4C9983; /* Green color for numbers */
     font-weight: bold; /* Bold for better emphasis */
     margin-right: 5px; /* Add spacing after the number */
