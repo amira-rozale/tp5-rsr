@@ -11,34 +11,32 @@
 </head>
 
 <body>
-      <header class="head">
-        
-        <nav>
-
-
-            <ul>
-               <div class="logo-container">
-                     <img src="logo.png" alt="Logo" class="logo">
-                </div>
-                <li><a href="index.html">Home</a></li>
-                <li class="dropdown"><a href="about-us.html">About Us</a>
-                    <ul class="dropdown-content">
-                        <li><a href="Axes-Scientifiques.html">Axes Scientifiques?</a></li>
-                        <li><a href="Comité-d-organisation.html"> Comité d’organisation</a></li>
-                        <li><a href="Comité-scientifique.html"> Comité scientifique</a></li>
-                    </ul>
-                </li>
-                <li class="dropdown"><a href="#icgh-meetings">ICGH Meetings</a>
-                    <ul class="dropdown-content">
-                        <li><a href="#meeting-1">Meeting 1</a></li>
-                        <li><a href="#meeting-2">Meeting 2</a></li>
-                        <li><a href="#meeting-3">Meeting 3</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header class="head">
+    <div class="logo-container">
+        <img src="logo.png" alt="Logo" class="logo">
+    </div>
+    <div class="mobile-menu" onclick="toggleMenu()">☰</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown"><a href="about-us.html">About Us</a>
+                <ul class="dropdown-content">
+                    <li><a href="Axes-Scientifiques.html">Axes Scientifiques</a></li>
+                    <li><a href="Comité-d-organisation.html">Comité d’organisation</a></li>
+                    <li><a href="Comité-scientifique.html">Comité scientifique</a></li>
+                </ul>
+            </li>
+            <li class="dropdown"><a href="#icgh-meetings">ICGH Meetings</a>
+                <ul class="dropdown-content">
+                    <li><a href="#meeting-1">Meeting 1</a></li>
+                    <li><a href="#meeting-2">Meeting 2</a></li>
+                    <li><a href="#meeting-3">Meeting 3</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
   <h2>Contact Us</h2>
   <form action="send-email.php" method="post" enctype="multipart/form-data">
     <label for="firstname"><i class="fa fa-user" aria-hidden="true"></i>Nom :</label>
