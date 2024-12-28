@@ -544,7 +544,12 @@ h3 {
             font-size: 12px;line-height: 0.8;letter-spacing: 0.141em;font-weight: 400;
             /*font-size: 13px;font-weight: 400;line-height: 1.1;letter-spacing: 0.024em;*/
         }
-
+@media (max-width: 480px) {
+    .member {
+        flex: 0 0 100%; /* Chaque élément occupe toute la largeur */
+        margin-bottom: 20px; /* Ajoute un espace entre les membres */
+    }
+}
 .member h2 {
             margin: 0 0 10px;
             font-size: 1.5em;
