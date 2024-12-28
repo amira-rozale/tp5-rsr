@@ -474,6 +474,30 @@ h3 {
 .email:hover {
     color: black; /* Orange color for the email icon on hover */
 }
+.footer-nav {
+    list-style: none; /* Remove default list bullets */
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the list items */
+    gap: 20px; /* Space between the links */
+
+}
+
+.footer-nav li {
+    display: inline; /* Make the list items inline */
+}
+
+.footer-nav a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text color */
+    font-size: 16px;
+    transition: color 0.3s ease;
+    background:#006E4E;/*vert foncai pour titre navbar footer*/
+}
+
+.footer-nav a:hover {
+    color: #D4A017; /* Change text color on hover */
+}
 
 
 
