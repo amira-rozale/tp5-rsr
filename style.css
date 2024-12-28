@@ -579,6 +579,29 @@ form {
   background-color: #f9f9f9;
   font-family: Arial, sans-serif;
 }
+
+/* Style pour les étiquettes */
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style pour les champs de saisie */
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="file"] {
+  width: 700px;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #006E4E;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #fff;
+}
 @media (max-width: 480px) {
 form {
   max-width: 85%;
@@ -601,28 +624,6 @@ form input[type="file"] {
   font-size: 14px;
   background-color: #fff;
 }
-}
-/* Style pour les étiquettes */
-form label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: bold;
-  color: #333;
-}
-
-/* Style pour les champs de saisie */
-form input[type="text"],
-form input[type="email"],
-form input[type="tel"],
-form input[type="file"] {
-  width: 700px;
-  padding: 15px;
-  margin-bottom: 20px;
-  border: 2px solid #006E4E;
-  border-radius: 15px;
-  box-sizing: border-box;
-  font-size: 14px;
-  background-color: #fff;
 }
 
 /* Champs focus */
