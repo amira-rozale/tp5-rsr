@@ -570,7 +570,7 @@ h3 {
 }
  /* Style global pour le formulaire */
 form {
-  max-width: 700px;
+  max-width: 600px;
   margin: 50px auto;
   padding: 120px;
   border: 1px solid #ddd;
@@ -629,20 +629,7 @@ form {
   }
 }
 @media (max-width: 1080px) {
-form input[type="text"], form input[type="email"], form input[type="tel"], form input[type="file"] {
-  width: 600px;
-  padding: 15px;
-  margin-bottom: 20px;
-  border: 2px solid #006E4E;
-    border-top-color: rgb(0, 110, 78);
-    border-right-color: rgb(0, 110, 78);
-    border-bottom-color: rgb(0, 110, 78);
-    border-left-color: rgb(0, 110, 78);
-  border-radius: 15px;
-  box-sizing: border-box;
-  font-size: 14px;
-  background-color: #fff;
-}
+
     form {
   max-width: 800px;
   margin: 50px auto;
