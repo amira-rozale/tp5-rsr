@@ -301,7 +301,7 @@ nav ul li a:hover {
     align-items: flex-start;
     gap: 20px; /* Espace entre les éléments */
 }
-.topic-number {
+. topics-text topic-number {
     color: #4C9983; /* Vert */
     font-weight: bold; /* Optionnel pour plus de mise en valeur */
 }
