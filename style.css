@@ -39,12 +39,12 @@ section {
     padding-right: 0;
     color: #006E4E; /* vert color for the first letter */
     font-weight: bold;
-    font-size: 2.5em; /* Taille plus grande sur PC */
+    font-size: 1.5em; /* Taille plus grande sur PC */
 }
 
 /* Margin for the rest of the text */
 .ml-1 {
-    margin-left: 0.25rem;
+    margin-left: 0.20rem;
     color: #006E4E;
 }
 .logos {
