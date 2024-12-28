@@ -440,7 +440,40 @@ h3 {
   -moz-font-feature-settings: 'liga';
   -moz-osx-font-smoothing: grayscale;
 }
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between the icons */
+}
 
+.icon {
+    text-decoration: none;
+    color: #006E4E;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+/* Icon Hover Effects */
+.icon:hover {
+    color: #006E4E; /* Change color to green on hover */
+}
+
+/* Specific Icon Colors */
+.facebook:hover {
+    color: #3b5998; /* Facebook blue color */
+}
+
+.instagram:hover {
+    color: #C13584; /* Instagram pink color */
+}
+
+.youtube:hover {
+    color: #FF0000; /* YouTube red color */
+}
+/* Email Icon Hover Effect */
+.email:hover {
+    color: black; /* Orange color for the email icon on hover */
+}
 
 
 
