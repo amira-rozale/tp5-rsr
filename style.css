@@ -13,12 +13,12 @@ header {
     justify-content: space-between;
     height: 30px;
 }
-.logo-container {
-  flex-shrink: 0; /* Prevents shrinking of the logo container */
+.-container {
+  flex-shrink: 0; /* Prevents shrinking of the  container */
 
 }
 .logo {
-  height: 100px; /* Adjust height to fit in the nav */
+  height: 80px; /* Adjust height to fit in the nav */
   width: auto;  /* Maintain aspect ratio */
 
 }
@@ -278,7 +278,7 @@ nav ul li a:hover {
     }
 
     .logo {
-        height: 40px; /* Smaller logo for mobile */
+        height: 50px; /* Smaller logo for mobile */
     }
 
     /* Mobile Menu Button Display */
