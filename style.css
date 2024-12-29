@@ -148,7 +148,7 @@ section {
     .logo {
         flex: 1 1 100%; /* One logo per row on smaller screens */
         max-width: 100%; /* Ensure logos take up full width on small screens */
-        height: 120px; /* Reduce height on small screens */
+        height: 80px; /* Reduce height on small screens */
         margin-bottom: 10px; /* Space between stacked logos */
     }
 }
