@@ -713,6 +713,45 @@ form input:invalid {
   border-color: #003829;
 }
 
+.buttons-containerx {
+  display: flex; /* Aligne les boutons côte à côte */
+  justify-content: space-between; /* Espacement entre les boutons */
+  gap: 10px; /* Espacement fixe entre les boutons */
+  margin: 20px auto; /* Ajoute un espace en haut et en bas */
+  max-width: 600px; /* Largeur maximale pour aligner les boutons */
+}
+
+.buttons-containerx button {
+  display: flex; /* Permet de placer l'icône et le texte horizontalement */
+  align-items: center; /* Aligne verticalement le texte et l'icône */
+  justify-content: center; /* Centre le contenu à l'intérieur du bouton */
+  background-color: #4C9983; /* Couleur de fond des boutons */
+  color: white; /* Couleur du texte et des icônes */
+  border: none; /* Supprime les bordures */
+  padding: 10px 20px; /* Espacement intérieur */
+  font-size: 16px; /* Taille du texte */
+  font-weight: bold; /* Texte en gras */
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer; /* Curseur pointer sur le bouton */
+  text-transform: uppercase; /* Met le texte en majuscules */
+  transition: background-color 0.3s ease; /* Animation au survol */
+}
+
+.buttons-containerx button i {
+  margin: 0 5px; /* Espacement entre l'icône et le texte */
+}
+
+.buttons-containerx button:hover {
+  background-color: #006E4E; /* Couleur de fond au survol */
+}
+
+.btn-prev {
+  flex-grow: 1; /* Optionnel : rend les deux boutons de même taille */
+}
+
+.btn-next {
+  flex-grow: 1; /* Optionnel : rend les deux boutons de même taille */
+}
 
 
 .social-icons {
